@@ -12,7 +12,7 @@ public class InsertValuesInExcel {
 
 	@Test
 	public void test1() {
-		query = "INSERT INTO \"Info - Sheet3\"(StudentID,\"First Name\",\"Last Name\",ProgrammingLanguage,\"Age\") VALUES(4,'abhi21','sharma','C',22)";
+		query = "INSERT INTO \"Info - Sheet3\"(StudentID,\"First Name\",\"Last Name\",ProgrammingLanguage,\"Age\") VALUES(5,'avadh','sharma','C',22)";
 		filePath = "./files/SampleExcelFile1.xlsx";
 		try {
 			Fillo fillo = new Fillo();
