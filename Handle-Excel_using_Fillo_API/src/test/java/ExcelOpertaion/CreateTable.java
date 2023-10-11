@@ -17,7 +17,7 @@ public class CreateTable {
 			Fillo fillo = new Fillo();
 			Connection connection = fillo.getConnection(filePath);
 			connection.createTable("InfoSheet4", new String[] { "StudentID", "First Name", "Last Name",
-					"ProgrammingLanguage", "Age" });
+					"ProgrammingLanguage", "Age", "Number" });
 			connection.close();
 		} catch (FilloException e) {
 			e.printStackTrace();
